@@ -1,0 +1,31 @@
+﻿<Window x:Class="LFMG.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:LFMG"
+        mc:Ignorable="d"
+        
+        Title="LFMG终端-Beta" Height="450" Width="750" WindowStyle="None" ResizeMode="NoResize">
+    <Grid>
+
+        <Grid Width="750" Height="20" VerticalAlignment="Top" Background="#2d3e58">
+            <TextBlock VerticalAlignment="Center" Margin="5,0,0,0" FontSize="10" Foreground="LightGray">LFMG终端-Beta</TextBlock>
+            <Button Width="20" Height="20" Click="Button_Click" HorizontalAlignment="Right" Margin="0,0,0,0" Background="#2d3e58" Foreground="LightGray">X</Button>
+            <Button Width="20" Height="20" Click="Button_Click" HorizontalAlignment="Right" Margin="0,0,20,0" Background="#2d3e58" Foreground="LightGray">-</Button>
+        </Grid>
+
+        <Grid Height="400" VerticalAlignment="top" Background="#FF1E1E1E" Margin="0,20,0,0" x:FieldModifier="MainViwe" >
+            <TextBlock Foreground="Gray">test</TextBlock>
+
+        </Grid>
+
+        <Grid Height="30" VerticalAlignment="Bottom" Margin="0,20,0,0" Background="#FF424242"/>
+        <Border BorderBrush="LightGray" BorderThickness="1" Height="30" Width="750" VerticalAlignment="Bottom">
+            
+        </Border>
+
+
+
+    </Grid>
+</Window>
